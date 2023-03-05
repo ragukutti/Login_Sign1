@@ -13,6 +13,8 @@ const Navbar = () => {
         <Stack direction="row" spacing={3} marginLeft="auto" sx={{xs:"auto",sm:"auto",md:"auto"}}>
          <ListItemButton SX={{color:"white"}} Component={NavLink} to="/login">LOGIN</ListItemButton>
          <ListItemButton SX={{color:"white"}} Component={NavLink} to="/sign">SIGN UP</ListItemButton>
+         <ListItemButton SX={{color:"white"}} Component={NavLink} to="/about">About</ListItemButton>
+
         </Stack>
         </Toolbar>
     </AppBar>
